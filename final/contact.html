@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Contact Alpine Bliss Resort to plan your dream getaway in the Swiss Alps." />
+  <title>Alpine Bliss Resort | Contact</title>
+  <link rel="stylesheet" href="styles%20obfuscated.css" />
+  <link rel="icon" type="image/jpeg" href="images.jpg" />
+</head>
+<body>
+  <header>
+    <h1><a href="index.html">Alpine Bliss Resort</a></h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">Accommodations</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="contact-intro">
+      <h2>Contact Us</h2>
+      <p>
+        Have questions or need help planning your visit? Reach out below!<br />
+        <em>Required fields marked with a *</em>
+      </p>
+    </section>
+
+    <section class="contact-form">
+      <img src="swiss-peak.jpg" alt="Majestic mountain view with river and forest" />
+
+      <form action="https://wp.zybooks.com/form-viewer.php" method="POST">
+        <label for="full-name">Full Name *</label>
+        <input type="text" id="full-name" name="full-name" required />
+
+        <label for="email">Email Address *</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="phone">Phone Number *</label>
+        <input type="tel" id="phone" name="phone" required />
+
+        <fieldset>
+          <legend>Preferred Contact Method *</legend>
+          <label><input type="radio" name="contact-method" value="email" required /> Email</label>
+          <label><input type="radio" name="contact-method" value="phone" required /> Phone</label>
+        </fieldset>
+
+        <label for="comments">Comments *</label>
+        <textarea id="comments" name="comments" required></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>Copyright ©2023 - Alpine Bliss Resort</p>
+    <p>This site is for educational purposes only</p>
+  </footer>
+</body>
+</html>
